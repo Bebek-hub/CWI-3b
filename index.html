@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1> My Feedback Form</h1>
+
+    <form>
+        <div>
+            <ul>
+                <li>
+                    <label> Name:</label>
+                    <input type="text" name="nam">
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <label> Email:</label>
+                    <input type="text" name="mail">
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <label> Password:</label>
+                    <input type="text" name="pw">
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <p> Please check all the emotions that apply to you:</p>
+                </li>
+
+                <ul>
+                    <li>
+                        <label> Angry</label>
+                        <input type="checkbox" name="emotions" value="angry" checked>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <label> Sad</label>
+                        <input type="checkbox" name="emotions"  value="sad">
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <label> Happy</label>
+                        <input type="checkbox" name="emotions"  value="happy">
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <label> Ambivalent</label>
+                        <input type="checkbox" name="emotions"  value="ambivalent">
+                    </li>
+                </ul>  
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <p>How satisfied were you with our service?</p>
+                </li>
+
+                <ul>
+                    <li>
+                        <label> Very satisfied</label>
+                        <input type="radio" name="service" value="very satisfied" checked>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <label> Satisfied</label>
+                        <input type="radio" name="service" value="satisfied">
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <label> Didn't care</label>
+                        <input type="radio" name="service" value="didn't care">
+                    </li>
+                </ul>
+                
+                <ul>
+                    <li>
+                        <label> Dissatisfied</label>
+                        <input type="radio" name="service" value="dissatisfied">
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <label> Very dissatisfied</label>
+                        <input type="radio" name="service" value="very dissatisfied">
+                    </li>
+                </ul>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <p> Further comments:
+                    <textarea name="comments"></textarea>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <label> Bio photo:</label>
+                    <input type="text" name="bio">
+                    <button> Choose...</button>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <label> Location visited:</label>
+                    <select name="locations">
+                        <option value="select location"> Select location</option>
+                        <option value="lagos"> Lagos</option>
+                        <option value="ibadan"> Ibadan</option>
+                        <option value="ilorin"> Ilorin</option>
+                        <option value="ondo"> Ondo</option>
+                        <option value="abuja"> Abuja</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    <button> Submit</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
